@@ -1,0 +1,8 @@
+stages:
+  - sync
+
+sync:
+  stage: sync
+  trigger:
+    project: control/solidcp/ci
+    branch: sync/out/solidcp
